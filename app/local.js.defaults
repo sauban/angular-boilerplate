@@ -1,0 +1,5 @@
+settings = {
+    baseApiUrl: 'http://localhost:1337'
+}
+
+exports.module = settings;

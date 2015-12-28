@@ -1,0 +1,29 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "My Personal Angular Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gruntjs",
+    "Angularjs"
+  ],
+  "author": "Sauban Lawal",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-ui-bootstrap": "^0.14.3",
+    "angular-ui-router": "^0.2.15",
+    "restangular": "^1.5.1"
+  }
+}
