@@ -1,0 +1,29 @@
+/* Webfont: Geogrotesque */
+
+@font-face {
+    font-family: 'Geogrotesque';
+    src: url('../fonts/geogrotesque-regular-webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/geogrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/geogrotesque-regular-webfont.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/geogrotesque-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/geogrotesque-regular-webfont.svg#geogrotesque-regular-webfont') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Geogrotesque';
+    src: url('../fonts/geogrotesque-semibold-webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/geogrotesque-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/geogrotesque-semibold-webfont.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/geogrotesque-semibold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/geogrotesque-semibold-webfont.svg#geogrotesque-semibold-webfont') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}

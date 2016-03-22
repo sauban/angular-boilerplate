@@ -1,0 +1,12 @@
+/* Webfont: EmilysCandy-Regular */@font-face {
+    font-family: 'EmilysCandy';
+    src: url('EmilysCandy-Regular.eot'); /* IE9 Compat Modes */
+    src: url('EmilysCandy-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EmilysCandy-Regular.woff') format('woff'), /* Modern Browsers */
+         url('EmilysCandy-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EmilysCandy-Regular.svg#EmilysCandy-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,33 @@
+.dashboard .tab-content {
+    overflow: scroll;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.modalLogin {
+  	padding: 30px;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.input-row {
+	padding: 6px;
+}
+
+.p-m-xl {
+    padding: 25px;
+}
+
+.dropdown-menu {
+      right: 15px;
+}
+
+.blue-select {
+      background-color: #4B7992;
+      color: white;
+      padding: 0px 18px 0px;
+}
