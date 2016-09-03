@@ -51,12 +51,12 @@ gulp.task('vendorcss', ['clean'], function(){
 gulp.task('appjsfiles', ['clean'], function(){
     return gulp.src(['app/filters/*.js', 'app/services/*.js', 'app/directives/*.js', 'app/modules/**/*.js', 'app/config/local.js', 'app/config/app.js'])
             .pipe(concat(json.name.toLowerCase() + '.js'))
-            .pipe(gulp.dest('dist/js'));
+            .pipe(gulp.dest('dist/assets'));
 });
 
 gulp.task('link-files', ['copy-images', 'copy-fonts', 'copy-html', 'vendorjs', 'vendorcss', 'appjsfiles'], function () {
   var target = gulp.src('dist/index.html');
-  var sources = gulp.src(['dist/**/*.js', 'dist/**/*.css'], {read: false});
+  var sources = gulp.src(['dist/assets/vendor.js', 'dist/assets/*.js', 'dist/assets/vendor.css', 'dist/assets/*.css'], {read: false});
 
   return target.pipe(inject(sources, {relative: true}))
     .pipe(gulp.dest('dist'));
@@ -66,7 +66,7 @@ gulp.task('style', ['clean'], function(){
     return gulp.src('app/styles/app.less')
         .pipe(less())
         .pipe(rename(json.name.toLowerCase() + '.css'))
-		    .pipe(gulp.dest('dist/css'))
+		    .pipe(gulp.dest('dist/assets'))
 });
 
 gulp.task('logger', function(){

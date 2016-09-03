@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 dist/
 node_modules/
 .git
 local.js
 .DS_Store
+=======
+node_modules/
+public/
+local.js
+>>>>>>> 7f14df01061835784f04fe802b4545b07bfde6b0
