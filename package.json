@@ -7,14 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Gruntjs",
-    "Angularjs"
+    "Gulp",
+    "Angularjs",
+    "Restangular",
+    "UI-Router"
   ],
   "author": "Sauban Lawal",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^12.0.1",
-    "event-stream": "^3.3.4",
     "gulp": "^3.9.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.6.0",
@@ -23,15 +23,6 @@
     "gulp-inject": "^4.1.0",
     "gulp-less": "^3.0.1",
     "gulp-plumber": "^0.6.6",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.6",
-    "oclazyload": "^1.0.9",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "dependencies": {
-    "angular": "^1.4.8",
-    "angular-ui-bootstrap": "^0.14.3",
-    "angular-ui-router": "^0.2.15",
-    "restangular": "^1.5.1"
+    "gulp-rename": "^1.2.2"
   }
 }
