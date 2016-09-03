@@ -1,5 +1,4 @@
-var directive = angular.module('CheckUser',[]);
-directive
+angular.module('CheckUser',[])
 .directive('checkUser', ['$rootScope', '$location', 'userSrv',
   function ($r, $location, userSrv) {
     return {
@@ -18,5 +17,3 @@ directive
       }
     }
   }]);
-
-exports.module = directive;

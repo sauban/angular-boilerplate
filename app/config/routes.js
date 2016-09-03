@@ -1,4 +1,14 @@
-angular.module('app', ['ui.router', 'ui.bootstrap','restangular', 'app.directives', 'app.filters', 'app.services', 'app.modules'])
+require('angular');
+require('angular-ui-router');
+require('angular-ui-bootstrap');
+require('restangular');
+require('oclazyload');
+require('./directives/main');
+require('./services/main');
+require('./modules/main');
+
+angular.module('app', ['ui.router', 'ui.bootstrap','restangular', 'app.directives', 'app.services',
+                'app.modules', 'oc.lazyLoad'])
 
 .config(['$stateProvider', '$urlRouterProvider', 'RestangularProvider', function($stateProvider, $urlRouterProvider, RestangularProvider){
     RestangularProvider.addResponseInterceptor(function(data, operation, what, url, response, deferred) {
@@ -53,8 +63,8 @@ angular.module('app', ['ui.router', 'ui.bootstrap','restangular', 'app.directive
     function ($scope, $window, $state, Auth, $rootScope) {
         // config
         $scope.app = {
-            name: 'Abuntoo',
-            version: '0.0.1'
+            name: 'Angular Boilerplate',
+            version: '0.1.0'
         }
 
         $rootScope.user = Auth.getUser();

@@ -9,7 +9,7 @@
  * 9/8/13 10:25 PM
  */
 
-exports.module = angular.module('ngFacebook', [])
+angular.module('ngFacebook', [])
   .provider('$facebook', function() {
     var config = {
       permissions:    'email',

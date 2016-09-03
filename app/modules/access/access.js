@@ -1,5 +1,5 @@
 'use strict';
-exports.module = angular.module('app.access', [
+angular.module('app.access', [
     'ui.router', 'ngFacebook'
   ])
   .config(['$stateProvider', '$facebookProvider',

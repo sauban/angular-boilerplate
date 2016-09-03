@@ -1,4 +1,4 @@
-exports.module = angular.module('app.localService', [])
+angular.module('app.localService', [])
     .factory('LocalService', function () {
         return {
             get: function (key) {

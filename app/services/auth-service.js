@@ -1,4 +1,4 @@
-exports.module = angular.module('app.authService', [])
+angular.module('app.authService', [])
     .factory('Auth', ['$http', 'LocalService', 'API', '$q', 'AccessLevel',
         function ($http, LocalService, API, $q, AccessLevel) {
             return {

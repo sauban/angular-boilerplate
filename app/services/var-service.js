@@ -1,4 +1,4 @@
-exports.module = angular.module('app.varService', [])
+angular.module('app.varService', [])
     .factory('VarService', function () {
         var savedData = {};
          function set(id, data) {
